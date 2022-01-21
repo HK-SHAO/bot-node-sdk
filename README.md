@@ -15,6 +15,9 @@ git clone https://github.com/tencent-connect/bot-node-sdk.git
 # cd repo
 cd bot-node-sdk
 
+# install dependencies
+npm install
+
 # run
 npm run dev
 

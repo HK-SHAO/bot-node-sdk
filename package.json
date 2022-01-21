@@ -30,6 +30,7 @@
     "test": "jest --config jest.config.json",
     "example": "cd example && npm run dev",
     "gc": "git-cz",
+    "publish:npm": "node scripts/publish.js",
     "release": "standard-version",
     "clean": "rimraf lib es typings",
     "linkdev": "node scripts/dev.js"
